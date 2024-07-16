@@ -3,7 +3,7 @@ const {test, expect} = require('@playwright/test','@TimeOut');
 test('validate login in Hellwege ', async({page}) =>{
 
     // Navigate to URL 
-    await page.goto('https://dev.hellwege.com/');
+    await page.goto('https://www.hellwege.com/');
     
    //Search with keywords
     await page.getByPlaceholder('Search').click();
